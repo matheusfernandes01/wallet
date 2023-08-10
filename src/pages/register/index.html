@@ -3,20 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>wallet</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="index.js"></script>
+    <title>wallet - cadastro</title>
+    <link rel="stylesheet" href="../../../style.css" />
   </head>
   <body>
     <div class="auth-container">
       <div class="auth-content">
         <div class="auth-content-container">
-          <img class="logo" src="src/img/logo (1).png" />
+          <img class="logo" src="../../img/logo (1).png" />
           <h3 class="full-width text-left mt larger">Bem vindo!</h3>
           <p class="mt small">
-            Digite seu e-mail abaixo para ter acesso à aplicação financeira
-            Wallet, e ter um melhor controle dos seu gastos mensais.
+            insira seu nome e seu email para ter acesso ao wallet app e
+            gerenciar suas finanças.
           </p>
+          <label class="mt" for="input-name">Nome</label>
+          <input
+            placeholder="insira seu nome"
+            class="mt smaller"
+            id="input-name"
+            name="input-name"
+            type="name"
+          />
           <label class="mt" for="input-email">E-mail</label>
           <input
             placeholder="email@exemplo.com"
@@ -25,11 +32,9 @@
             name="input-email"
             type="email"
           />
-          <button onclick="onClickLogin()" class="full-width mt larger">
-            Acessar
-          </button>
-          <a href="src/pages/register/index.html" class="mt larger"
-            >Não tem conta? faça seu cadastro aqui!</a
+          <button class="full-width mt larger">cadastrar</button>
+          <a href="../../../index.html" class="mt larger"
+            >ja possui uma conta? faça login aqui!</a
           >
         </div>
       </div>
