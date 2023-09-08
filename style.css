@@ -44,6 +44,14 @@ p {
   padding: 0px;
 }
 
+p1 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
 label {
   width: 100%;
   font-size: 14px;
