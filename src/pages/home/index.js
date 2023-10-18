@@ -10,12 +10,7 @@ const renderFinanceElements = (data) => {
 
   //total
   const financeCard1 = document.getElementById("finance-card-1");
-  const totalText = document.createTextNode(
-    new Intl.NumberFormat("pt-BR", {
-      style: "currency",
-      currency: "BRL",
-    }).format(totalItens)
-  );
+  const totalText = document.createTextNode(totalItens);
   const totalElement = document.createElement("h2");
   totalElement.className = "mt smaller";
   totalElement.appendChild(totalText);

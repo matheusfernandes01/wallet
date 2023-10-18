@@ -79,8 +79,8 @@ button {
   cursor: pointer;
 }
 
-button.menor {
-  background-color: #f4f4f9;
+button.small {
+  background-color: #ffffff;
   color: #010400;
   font-size: 14px;
   border-radius: 8px;
